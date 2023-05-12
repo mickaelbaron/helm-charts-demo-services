@@ -1,5 +1,5 @@
 {{- if .Values.ingress.enabled }}
-- Test2 You can connect to this vscode with your browser on this [link](http{{ if $.Values.ingress.tls }}s{{ end }}://{{ .Values.ingress.hostname }})
+- You can connect to this vscode with your browser on this [link](http{{ if $.Values.ingress.tls }}s{{ end }}://{{ .Values.ingress.hostname }})
 {{- if .Values.networking.user.enabled }}
 - You can connect to your custom port on this [link](http{{ if $.Values.ingress.tls }}s{{ end }}://{{ .Values.ingress.userHostname }})
 If you don't run your custom service you will get a 502 bad gateway error.
