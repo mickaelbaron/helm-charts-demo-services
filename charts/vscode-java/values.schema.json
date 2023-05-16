@@ -150,9 +150,9 @@
               "version": {
                 "description": "vscode supported version",
                 "type": "string",
-                "default": "mickaelbaron/onyxia-vscode-java:latest",
+                "default": "mickaelbaron/onyxia-vscode-java:javaopenjdk-17",
                 "listEnum": [
-                  "mickaelbaron/onyxia-vscode-java:latest"
+                  "mickaelbaron/onyxia-vscode-java:javaopenjdk-17"
                 ],
                 "render": "list",
                 "pattern": "^[a-z0-9-_./]+(:[a-z0-9-_.]+)?$",

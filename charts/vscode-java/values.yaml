@@ -2,11 +2,11 @@
 
 service:
   image:
-    version: "mickaelbaron/onyxia-vscode-java:latest"
+    version: "mickaelbaron/onyxia-vscode-java:javaopenjdk-17"
     pullPolicy: IfNotPresent
     custom:
       enabled: false
-      version: "mickaelbaron/onyxia-vscode-java:latest"
+      version: "mickaelbaron/onyxia-vscode-java:javaopenjdk-17"
 
 security:
   password: "changeme"
