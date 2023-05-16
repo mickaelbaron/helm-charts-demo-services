@@ -95,9 +95,9 @@ The Visual Studio Code IDE with Java.
 | security.password | string | `"changeme"` |  |
 | securityContext | object | `{}` |  |
 | service.image.custom.enabled | bool | `false` |  |
-| service.image.custom.version | string | `"mickaelbaron/onyxia-vscode-java:latest"` |  |
+| service.image.custom.version | string | `"mickaelbaron/onyxia-vscode-java:javaopenjdk-17"` |  |
 | service.image.pullPolicy | string | `"IfNotPresent"` |  |
-| service.image.version | string | `"mickaelbaron/onyxia-vscode-java:latest"` |  |
+| service.image.version | string | `"mickaelbaron/onyxia-vscode-java:javaopenjdk-17"` |  |
 | serviceAccount.annotations | object | `{}` |  |
 | serviceAccount.create | bool | `true` |  |
 | serviceAccount.name | string | `""` |  |
