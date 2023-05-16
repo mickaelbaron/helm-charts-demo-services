@@ -1,0 +1,48 @@
+apiVersion: v1
+entries:
+  vscode-java:
+  - apiVersion: v2
+    created: "2023-05-16T20:38:34.968458255Z"
+    dependencies:
+    - name: library-chart
+      repository: https://inseefrlab.github.io/helm-charts-interactive-services
+      version: 1.3.15
+    description: The Visual Studio Code IDE with Java.
+    digest: a70798748b514d32061b04b916bf3ae7977b6659fc9b7ff415ba3443e3257f28
+    home: https://code.visualstudio.com/
+    icon: https://minio.lab.sspcloud.fr/projet-onyxia/assets/servicesImg/vscode.png
+    keywords:
+    - VSCode
+    - Java
+    name: vscode-java
+    sources:
+    - https://github.com/mickaelbaron/images-demo
+    - https://github.com/mickaelbaron/helm-charts-demo-services
+    type: application
+    urls:
+    - https://github.com/mickaelbaron/helm-charts-demo-services/releases/download/vscode-java-1.0.0/vscode-java-1.0.0.tgz
+    version: 1.0.0
+  vscode-python:
+  - apiVersion: v2
+    created: "2023-05-16T20:38:35.150670385Z"
+    dependencies:
+    - name: library-chart
+      repository: https://inseefrlab.github.io/helm-charts-interactive-services
+      version: 1.3.15
+    description: The Visual Studio Code IDE with Python, Julia, and a collection of
+      standard data science packages.
+    digest: b002e432d6f73f2856488a43a112440615d241f3af12a691e041cdd21807b6ee
+    home: https://code.visualstudio.com/
+    icon: https://minio.lab.sspcloud.fr/projet-onyxia/assets/servicesImg/vscode.png
+    keywords:
+    - VSCode
+    - Python
+    name: vscode-python
+    sources:
+    - https://github.com/InseeFrLab/images-datascience
+    - https://github.com/InseeFrLab/helm-charts-interactive-services
+    type: application
+    urls:
+    - https://github.com/mickaelbaron/helm-charts-demo-services/releases/download/vscode-python-1.0.0/vscode-python-1.0.0.tgz
+    version: 1.0.0
+generated: "2023-05-16T20:38:35.150675685Z"
